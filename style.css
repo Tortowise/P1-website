@@ -9,9 +9,26 @@ body{
 *:before{
   box-sizing: border-box;
 }
+
+ul{
+  text-decoration: none;
+  margin: 0;
+  padding-left: 0;
+}
+li{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
 a{
   text-decoration: none;
   color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .page{
