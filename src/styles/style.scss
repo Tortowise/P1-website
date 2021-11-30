@@ -1,5 +1,10 @@
+$background-lighter: #29606B;
+$background-dark: #245963;
+$border: #2a6c78;
+
+
 body{
-  background-color: #29606B;
+  background-color: $background-lighter;
   margin: 0;
   font-family: 'Fjalla One', sans-serif;
   color: white;
@@ -64,8 +69,8 @@ h1,h2,h3,h4,h5,h6{
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  background-color: #29606B;
-  border: 1px solid #2a6c78;
+  background-color: $background-lighter;
+  border: 1px solid $border;
   opacity: 0.85;
 }
 
@@ -116,6 +121,7 @@ img{
   width: 100%;
   height: 601px;
   object-position: top;
+  opacity: 0.5;
 }
 
 /*Intro*/
@@ -192,7 +198,7 @@ img{
   flex-wrap: wrap;
   flex-direction: row;
   height: 675px;
-  border: 1px solid #2A6C78;
+  border: 1px solid $border;
 }
 .table_box{
   display: flex;
@@ -227,7 +233,7 @@ img{
   height: 100px;
   border-radius: 50%;
   font-size: 3em;
-  color: #245963;
+  color: $background-dark;
 }
 .box_title{
   margin-top: 30px;
@@ -287,7 +293,7 @@ img{
   font-weight: 400;
   text-transform: uppercase;
   z-index: 12;
-  background-color: #29606B;
+  background-color: $background-lighter;
   padding: 0 20px;
 }
 .info_text_line{
@@ -312,7 +318,7 @@ img{
 .blog_column{
   height: 100%;
   width: 370px;
-  background-color: #245963;
+  background-color: $background-dark;
 }
 /*Column of a blog*/
 .column_content{
@@ -383,13 +389,13 @@ img{
   background-color: #1bbc9b;
 }
 .column_photo_red{
-  background-image: url("img/woman_red.jpg");
+  background-image: url('../img/woman_red.jpg');
 }
 .column_photo_yellow{
-  background-image: url("img/woman_yellow.jpg");
+  background-image: url('../img/woman_yellow.jpg');
 }
 .column_photo_green{
-  background-image: url("img/woman_green.jpg");
+  background-image: url('../img/woman_green.jpg');
 }
 .post{
   position: relative;
@@ -427,7 +433,7 @@ img{
   font-weight: 400;
   text-transform: uppercase;
   z-index:11;
-  background-color: #29606B;
+  background-color: $background-lighter;
   padding: 0 20px;
 }
 .post_line{
@@ -450,14 +456,14 @@ img{
   width: 270px;
   height: 46px;
   color:#fff;
-  background-color: #245963;
+  background-color: $background-dark;
   border: 1px solid #387d89;
 }
 .post_form_second{
   margin-top: 25px;
   height: 126px;
   color:#fff;
-  background-color: #245963;
+  background-color: $background-dark;
   border: 1px solid #387d89;
 }
 .post_button{
@@ -472,7 +478,7 @@ img{
   line-height: 1.2;
   font-weight: 400;
   text-transform: uppercase;
-  background-color: #245963;
+  background-color: $background-dark;
 }
 .post_button:after {
   position: absolute;
@@ -483,7 +489,7 @@ img{
   margin-top: -8px;
   top: 100%;
   left: 50%;
-  background-color: #245963;
+  background-color: $background-dark;
   transform: rotate(45deg);
 }
 
@@ -493,7 +499,7 @@ img{
 }
 .footer_inner{
   height: 200px;
-  background-color: #245963;
+  background-color: $background-dark;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -548,15 +554,15 @@ img{
   font-size: 15px;
   line-height: 1.2;
   font-weight: 400;
-  color: #245963;
+  color: $background-dark;
 }
 .fa-twitter{
   font-size: 15px;
   line-height: 1.2;
   font-weight: 400;
-  color: #245963;
+  color: $background-dark;
 }
 .fa-envelope-open-text{
-  color: #245963;
+  color: $background-dark;
   font-size: 3em;
 }
