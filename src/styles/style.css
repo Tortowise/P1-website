@@ -121,6 +121,7 @@ img {
   width: 100%;
   height: 601px;
   object-position: top;
+  opacity: 0.5;
 }
 
 /*Intro*/
@@ -216,19 +217,19 @@ img {
   margin: 0;
 }
 
-#box_red {
+.table_box--red {
   background: #e84c3d;
 }
 
-#box_yellow {
+.table_box--yellow {
   background: #fdbd1f;
 }
 
-#box_green {
+.table_box--green {
   background: #1bbc9b;
 }
 
-#box_purple {
+.table_box--purple {
   background: #9b58b5;
 }
 
@@ -400,30 +401,30 @@ img {
   transform: rotate(45deg);
 }
 
-.column_red,
-.column_red:after {
+.column--red,
+.column--red:after {
   background-color: #e84c3d;
 }
 
-.column_yellow,
-.column_yellow:after {
+.column--yellow,
+.column--yellow:after {
   background-color: #fdbd1f;
 }
 
-.column_green,
-.column_green:after {
+.column--green,
+.column--green:after {
   background-color: #1bbc9b;
 }
 
-.column_photo_red {
+.column_photo--red {
   background-image: url("../img/woman_red.jpg");
 }
 
-.column_photo_yellow {
+.column_photo--yellow {
   background-image: url("../img/woman_yellow.jpg");
 }
 
-.column_photo_green {
+.column_photo--green {
   background-image: url("../img/woman_green.jpg");
 }
 
@@ -484,7 +485,7 @@ img {
   width: 570px;
 }
 
-.post_form_1line {
+.post_form--small {
   display: flex;
   justify-content: space-between;
 }
@@ -497,7 +498,7 @@ img {
   border: 1px solid #387d89;
 }
 
-.post_form_second {
+.post_form--big {
   margin-top: 25px;
   height: 126px;
   color: #fff;
